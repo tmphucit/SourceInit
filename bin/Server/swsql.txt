@@ -1,0 +1,1088 @@
+update Role_Info set bsex='男',caccname='ie6sp1',calias='',cpartnercode='',cusercode='老农',iagility=25,iarmorres=18,ifightexp=143,ifightlevel=2,ifinishgame=0,ifirstsect=255,ifiveprop=3,igroupcode=0,igrouprole=0,ihelmres=18,iinside=25,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=1,ileftlife=0,ileftprop=5,iliveexp=0,iluck=0,imaxinner=206,imaxlife=104,imaxstamina=104,imoney=200,iouter=25,ipower=25,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=19 where cUserCode='老农' 
+delete from FightSkill where iid=12334 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('老农',53,1)
+delete from Task_List where iid=2603 
+insert into Task_List(cusercode,idegree,itaskcode) values('老农',8,210)
+delete from EquipBaseInfo where iid=43256 
+delete from EquipBaseInfo where iid=43257 
+delete from EquipBaseInfo where iid=43258 
+delete from EquipBaseInfo where iid=43259 
+delete from EquipRequireInfo where iid=31834 
+delete from EquipRequireInfo where iid=31835 
+delete from EquipRequireInfo where iid=31836 
+delete from Equipments where iid=19035 
+delete from EquipBaseInfo where iid=43260 
+delete from EquipBaseInfo where iid=43261 
+delete from EquipBaseInfo where iid=43262 
+delete from EquipBaseInfo where iid=43263 
+delete from EquipRequireInfo where iid=31837 
+delete from EquipRequireInfo where iid=31838 
+delete from EquipRequireInfo where iid=31839 
+delete from Equipments where iid=19036 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('老农',0,0,103,0,1,3,0,0,0,0,0,0,0,1,25180,0,1,2)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19043,3,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19043,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19043,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19043,22,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19043,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19043,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19043,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('老农',1,0,102,0,1,2,0,0,0,0,0,0,0,1,31203,0,3,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19044,4,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19044,7,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19044,100,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19044,50,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19044,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19044,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19044,0,0,0)
+insert into Role_Info(bsex,caccname,calias,cpartnercode,cusercode,iagility,iarmorres,ifightexp,ifightlevel,ifinishgame,ifirstsect,ifiveprop,igroupcode,igrouprole,ihelmres,iinside,ijoincount,ileadexp,ileadlevel,ileftfight,ileftlife,ileftprop,iliveexp,iluck,imaxinner,imaxlife,imaxstamina,imoney,iouter,ipower,irevivalid,irevivalx,irevivaly,isavemoney,isect,isectrole,iteam,iweaponres) values('男','huyi4','','','32545',25,18,0,1,0,255,1,0,0,18,15,0,0,1,0,0,0,0,0,200,30,30,10000,25,15,20,10,0,0,255,0,0,0)
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('32545',53,1)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',10,0,123,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19045,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19045,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19045,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19045,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19045,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',0,0,122,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19046,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19046,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19046,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19046,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19046,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19046,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19046,0,0,0)
+update Role_Info set bsex='男',caccname='huyi4',calias='',cpartnercode='',cusercode='32545',iagility=25,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=1,igroupcode=0,igrouprole=0,ihelmres=18,iinside=15,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=200,imaxlife=30,imaxstamina=30,imoney=10000,iouter=25,ipower=15,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='32545' 
+delete from FightSkill where iid=12348 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('32545',53,1)
+delete from EquipBaseInfo where iid=43288 
+delete from EquipBaseInfo where iid=43289 
+delete from EquipBaseInfo where iid=43290 
+delete from EquipBaseInfo where iid=43291 
+delete from EquipBaseInfo where iid=43292 
+delete from Equipments where iid=19045 
+delete from EquipBaseInfo where iid=43293 
+delete from EquipBaseInfo where iid=43294 
+delete from EquipBaseInfo where iid=43295 
+delete from EquipBaseInfo where iid=43296 
+delete from EquipRequireInfo where iid=31852 
+delete from EquipRequireInfo where iid=31853 
+delete from EquipRequireInfo where iid=31854 
+delete from Equipments where iid=19046 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',10,0,123,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19047,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19047,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19047,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19047,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19047,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',0,0,122,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19048,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19048,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19048,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19048,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19048,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19048,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19048,0,0,0)
+update Role_Info set bsex='男',caccname='huyi4',calias='',cpartnercode='',cusercode='32545',iagility=25,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=1,igroupcode=0,igrouprole=0,ihelmres=18,iinside=15,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=200,imaxlife=30,imaxstamina=30,imoney=10000,iouter=25,ipower=15,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='32545' 
+delete from FightSkill where iid=12349 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('32545',53,1)
+delete from EquipBaseInfo where iid=43297 
+delete from EquipBaseInfo where iid=43298 
+delete from EquipBaseInfo where iid=43299 
+delete from EquipBaseInfo where iid=43300 
+delete from EquipBaseInfo where iid=43301 
+delete from Equipments where iid=19047 
+delete from EquipBaseInfo where iid=43302 
+delete from EquipBaseInfo where iid=43303 
+delete from EquipBaseInfo where iid=43304 
+delete from EquipBaseInfo where iid=43305 
+delete from EquipRequireInfo where iid=31855 
+delete from EquipRequireInfo where iid=31856 
+delete from EquipRequireInfo where iid=31857 
+delete from Equipments where iid=19048 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',0,0,125,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19049,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19049,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19049,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19049,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19049,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19049,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19049,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',10,0,124,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19050,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19050,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19050,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19050,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19050,10,0,0)
+update Role_Info set bsex='男',caccname='huyi4',calias='',cpartnercode='',cusercode='32545',iagility=25,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=1,igroupcode=0,igrouprole=0,ihelmres=18,iinside=15,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=200,imaxlife=30,imaxstamina=30,imoney=10000,iouter=25,ipower=15,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='32545' 
+delete from FightSkill where iid=12350 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('32545',53,1)
+delete from EquipBaseInfo where iid=43306 
+delete from EquipBaseInfo where iid=43307 
+delete from EquipBaseInfo where iid=43308 
+delete from EquipBaseInfo where iid=43309 
+delete from EquipRequireInfo where iid=31858 
+delete from EquipRequireInfo where iid=31859 
+delete from EquipRequireInfo where iid=31860 
+delete from Equipments where iid=19049 
+delete from EquipBaseInfo where iid=43310 
+delete from EquipBaseInfo where iid=43311 
+delete from EquipBaseInfo where iid=43312 
+delete from EquipBaseInfo where iid=43313 
+delete from EquipBaseInfo where iid=43314 
+delete from Equipments where iid=19050 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',10,0,127,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19051,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19051,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19051,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19051,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19051,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',0,0,126,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19052,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19052,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19052,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19052,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19052,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19052,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19052,0,0,0)
+update Role_Info set bsex='男',caccname='huyi4',calias='',cpartnercode='',cusercode='32545',iagility=25,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=1,igroupcode=0,igrouprole=0,ihelmres=18,iinside=15,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=200,imaxlife=30,imaxstamina=30,imoney=10000,iouter=25,ipower=15,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='32545' 
+delete from FightSkill where iid=12351 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('32545',53,1)
+delete from EquipBaseInfo where iid=43315 
+delete from EquipBaseInfo where iid=43316 
+delete from EquipBaseInfo where iid=43317 
+delete from EquipBaseInfo where iid=43318 
+delete from EquipBaseInfo where iid=43319 
+delete from Equipments where iid=19051 
+delete from EquipBaseInfo where iid=43320 
+delete from EquipBaseInfo where iid=43321 
+delete from EquipBaseInfo where iid=43322 
+delete from EquipBaseInfo where iid=43323 
+delete from EquipRequireInfo where iid=31861 
+delete from EquipRequireInfo where iid=31862 
+delete from EquipRequireInfo where iid=31863 
+delete from Equipments where iid=19052 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',0,0,129,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19053,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19053,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19053,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19053,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19053,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19053,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19053,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',10,0,128,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19054,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19054,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19054,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19054,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19054,10,0,0)
+update Role_Info set bsex='男',caccname='huyi4',calias='',cpartnercode='',cusercode='32545',iagility=25,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=1,igroupcode=0,igrouprole=0,ihelmres=18,iinside=15,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=200,imaxlife=30,imaxstamina=30,imoney=10000,iouter=25,ipower=15,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='32545' 
+delete from FightSkill where iid=12352 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('32545',53,1)
+delete from EquipBaseInfo where iid=43324 
+delete from EquipBaseInfo where iid=43325 
+delete from EquipBaseInfo where iid=43326 
+delete from EquipBaseInfo where iid=43327 
+delete from EquipRequireInfo where iid=31864 
+delete from EquipRequireInfo where iid=31865 
+delete from EquipRequireInfo where iid=31866 
+delete from Equipments where iid=19053 
+delete from EquipBaseInfo where iid=43328 
+delete from EquipBaseInfo where iid=43329 
+delete from EquipBaseInfo where iid=43330 
+delete from EquipBaseInfo where iid=43331 
+delete from EquipBaseInfo where iid=43332 
+delete from Equipments where iid=19054 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',10,0,131,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19055,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19055,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19055,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19055,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19055,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',0,0,130,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19056,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19056,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19056,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19056,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19056,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19056,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19056,0,0,0)
+update Role_Info set bsex='男',caccname='huyi4',calias='',cpartnercode='',cusercode='32545',iagility=25,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=1,igroupcode=0,igrouprole=0,ihelmres=18,iinside=15,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=200,imaxlife=30,imaxstamina=30,imoney=10000,iouter=25,ipower=15,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='32545' 
+delete from FightSkill where iid=12353 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('32545',53,1)
+delete from EquipBaseInfo where iid=43333 
+delete from EquipBaseInfo where iid=43334 
+delete from EquipBaseInfo where iid=43335 
+delete from EquipBaseInfo where iid=43336 
+delete from EquipBaseInfo where iid=43337 
+delete from Equipments where iid=19055 
+delete from EquipBaseInfo where iid=43338 
+delete from EquipBaseInfo where iid=43339 
+delete from EquipBaseInfo where iid=43340 
+delete from EquipBaseInfo where iid=43341 
+delete from EquipRequireInfo where iid=31867 
+delete from EquipRequireInfo where iid=31868 
+delete from EquipRequireInfo where iid=31869 
+delete from Equipments where iid=19056 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',0,0,133,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19057,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19057,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19057,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19057,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19057,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19057,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19057,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',10,0,132,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19058,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19058,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19058,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19058,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19058,10,0,0)
+update Role_Info set bsex='男',caccname='huyi4',calias='',cpartnercode='',cusercode='32545',iagility=25,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=1,igroupcode=0,igrouprole=0,ihelmres=18,iinside=15,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=200,imaxlife=30,imaxstamina=30,imoney=10000,iouter=25,ipower=15,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='32545' 
+delete from FightSkill where iid=12354 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('32545',53,1)
+delete from EquipBaseInfo where iid=43342 
+delete from EquipBaseInfo where iid=43343 
+delete from EquipBaseInfo where iid=43344 
+delete from EquipBaseInfo where iid=43345 
+delete from EquipRequireInfo where iid=31870 
+delete from EquipRequireInfo where iid=31871 
+delete from EquipRequireInfo where iid=31872 
+delete from Equipments where iid=19057 
+delete from EquipBaseInfo where iid=43346 
+delete from EquipBaseInfo where iid=43347 
+delete from EquipBaseInfo where iid=43348 
+delete from EquipBaseInfo where iid=43349 
+delete from EquipBaseInfo where iid=43350 
+delete from Equipments where iid=19058 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',10,0,135,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19059,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19059,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19059,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19059,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19059,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',0,0,134,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19060,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19060,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19060,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19060,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19060,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19060,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19060,0,0,0)
+update Role_Info set bsex='男',caccname='huyi4',calias='',cpartnercode='',cusercode='32545',iagility=25,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=1,igroupcode=0,igrouprole=0,ihelmres=18,iinside=15,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=200,imaxlife=30,imaxstamina=30,imoney=10000,iouter=25,ipower=15,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='32545' 
+delete from FightSkill where iid=12355 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('32545',53,1)
+delete from EquipBaseInfo where iid=43351 
+delete from EquipBaseInfo where iid=43352 
+delete from EquipBaseInfo where iid=43353 
+delete from EquipBaseInfo where iid=43354 
+delete from EquipBaseInfo where iid=43355 
+delete from Equipments where iid=19059 
+delete from EquipBaseInfo where iid=43356 
+delete from EquipBaseInfo where iid=43357 
+delete from EquipBaseInfo where iid=43358 
+delete from EquipBaseInfo where iid=43359 
+delete from EquipRequireInfo where iid=31873 
+delete from EquipRequireInfo where iid=31874 
+delete from EquipRequireInfo where iid=31875 
+delete from Equipments where iid=19060 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',0,0,137,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19061,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19061,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19061,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19061,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19061,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19061,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19061,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('32545',10,0,136,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19062,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19062,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19062,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19062,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19062,10,0,0)
+insert into Role_Info(bsex,caccname,calias,cpartnercode,cusercode,iagility,iarmorres,ifightexp,ifightlevel,ifinishgame,ifirstsect,ifiveprop,igroupcode,igrouprole,ihelmres,iinside,ijoincount,ileadexp,ileadlevel,ileftfight,ileftlife,ileftprop,iliveexp,iluck,imaxinner,imaxlife,imaxstamina,imoney,iouter,ipower,irevivalid,irevivalx,irevivaly,isavemoney,isect,isectrole,iteam,iweaponres) values('男','555','','','zhongfang',20,18,0,1,0,255,0,0,0,18,10,0,0,1,0,0,0,0,0,40,100,100,0,25,30,20,10,0,10000,255,0,0,0)
+delete from FightSkill where iid=11999 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('zhongfang',53,1)
+delete from Task_List where iid=2513 
+delete from EquipBaseInfo where iid=40865 
+delete from EquipBaseInfo where iid=40866 
+delete from Equipments where iid=18180 
+delete from EquipBaseInfo where iid=40867 
+delete from Equipments where iid=18181 
+delete from EquipBaseInfo where iid=40868 
+delete from Equipments where iid=18182 
+delete from EquipBaseInfo where iid=40869 
+delete from Equipments where iid=18183 
+delete from EquipBaseInfo where iid=40870 
+delete from EquipBaseInfo where iid=40871 
+delete from EquipBaseInfo where iid=40872 
+delete from EquipBaseInfo where iid=40873 
+delete from EquipRequireInfo where iid=30150 
+delete from EquipRequireInfo where iid=30151 
+delete from EquipRequireInfo where iid=30152 
+delete from Equipments where iid=18184 
+delete from EquipBaseInfo where iid=40874 
+delete from Equipments where iid=18185 
+delete from EquipBaseInfo where iid=40875 
+delete from Equipments where iid=18186 
+delete from EquipBaseInfo where iid=40876 
+delete from EquipBaseInfo where iid=40877 
+delete from EquipRequireInfo where iid=30153 
+delete from EquipRequireInfo where iid=30154 
+delete from EquipRequireInfo where iid=30155 
+delete from Equipments where iid=18187 
+delete from EquipBaseInfo where iid=40878 
+delete from EquipBaseInfo where iid=40879 
+delete from EquipBaseInfo where iid=40880 
+delete from EquipBaseInfo where iid=40881 
+delete from EquipRequireInfo where iid=30156 
+delete from EquipRequireInfo where iid=30157 
+delete from EquipRequireInfo where iid=30158 
+delete from Equipments where iid=18188 
+delete from EquipBaseInfo where iid=40882 
+delete from EquipBaseInfo where iid=40883 
+delete from EquipBaseInfo where iid=40884 
+delete from EquipBaseInfo where iid=40885 
+delete from EquipBaseInfo where iid=40886 
+delete from Equipments where iid=18189 
+delete from EquipBaseInfo where iid=40887 
+delete from EquipBaseInfo where iid=40888 
+delete from Equipments where iid=18190 
+delete from EquipBaseInfo where iid=40889 
+delete from Equipments where iid=18191 
+delete from EquipBaseInfo where iid=40890 
+delete from EquipBaseInfo where iid=40891 
+delete from EquipBaseInfo where iid=40892 
+delete from EquipBaseInfo where iid=40893 
+delete from EquipRequireInfo where iid=30159 
+delete from EquipRequireInfo where iid=30160 
+delete from EquipRequireInfo where iid=30161 
+delete from Equipments where iid=18192 
+delete from EquipBaseInfo where iid=40894 
+delete from EquipBaseInfo where iid=40895 
+delete from EquipRequireInfo where iid=30162 
+delete from EquipRequireInfo where iid=30163 
+delete from Equipments where iid=18193 
+delete from EquipBaseInfo where iid=40896 
+delete from Equipments where iid=18194 
+delete from EquipBaseInfo where iid=40897 
+delete from EquipBaseInfo where iid=40898 
+delete from EquipRequireInfo where iid=30164 
+delete from EquipRequireInfo where iid=30165 
+delete from EquipRequireInfo where iid=30166 
+delete from EquipRequireInfo where iid=30167 
+delete from Equipments where iid=18195 
+delete from EquipBaseInfo where iid=40899 
+delete from EquipBaseInfo where iid=40900 
+delete from EquipRequireInfo where iid=30168 
+delete from EquipRequireInfo where iid=30169 
+delete from EquipRequireInfo where iid=30170 
+delete from Equipments where iid=18196 
+delete from EquipBaseInfo where iid=40901 
+delete from EquipBaseInfo where iid=40902 
+delete from EquipRequireInfo where iid=30171 
+delete from EquipRequireInfo where iid=30172 
+delete from EquipRequireInfo where iid=30173 
+delete from EquipRequireInfo where iid=30174 
+delete from Equipments where iid=18197 
+delete from EquipBaseInfo where iid=40903 
+delete from EquipBaseInfo where iid=40904 
+delete from EquipRequireInfo where iid=30175 
+delete from EquipRequireInfo where iid=30176 
+delete from Equipments where iid=18198 
+delete from EquipBaseInfo where iid=40905 
+delete from Equipments where iid=18199 
+delete from EquipBaseInfo where iid=40906 
+delete from Equipments where iid=18200 
+delete from EquipBaseInfo where iid=40907 
+delete from Equipments where iid=18201 
+delete from EquipBaseInfo where iid=40908 
+delete from Equipments where iid=18202 
+delete from EquipBaseInfo where iid=40909 
+delete from EquipBaseInfo where iid=40910 
+delete from EquipBaseInfo where iid=40911 
+delete from EquipBaseInfo where iid=40912 
+delete from EquipRequireInfo where iid=30177 
+delete from EquipRequireInfo where iid=30178 
+delete from EquipRequireInfo where iid=30179 
+delete from Equipments where iid=18203 
+delete from EquipBaseInfo where iid=40913 
+delete from EquipBaseInfo where iid=40914 
+delete from EquipRequireInfo where iid=30180 
+delete from EquipRequireInfo where iid=30181 
+delete from EquipRequireInfo where iid=30182 
+delete from Equipments where iid=18204 
+delete from EquipBaseInfo where iid=40915 
+delete from EquipBaseInfo where iid=40916 
+delete from EquipRequireInfo where iid=30183 
+delete from EquipRequireInfo where iid=30184 
+delete from EquipRequireInfo where iid=30185 
+delete from EquipRequireInfo where iid=30186 
+delete from Equipments where iid=18205 
+delete from EquipBaseInfo where iid=40917 
+delete from EquipBaseInfo where iid=40918 
+delete from EquipRequireInfo where iid=30187 
+delete from EquipRequireInfo where iid=30188 
+delete from EquipRequireInfo where iid=30189 
+delete from EquipRequireInfo where iid=30190 
+delete from Equipments where iid=18206 
+delete from EquipRequireInfo where iid=30191 
+delete from EquipRequireInfo where iid=30192 
+delete from Equipments where iid=18207 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('zhongfang',10,0,139,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19063,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19063,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19063,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19063,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19063,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('zhongfang',0,0,138,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19064,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19064,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19064,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19064,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19064,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19064,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19064,0,0,0)
+delete from Friend_List where iid=513 
+update Role_Info set bsex='男',caccname='UU',calias='',cpartnercode='',cusercode='=西山居=ROO',iagility=25,iarmorres=18,ifightexp=3216,ifightlevel=8,ifinishgame=0,ifirstsect=255,ifiveprop=3,igroupcode=0,igrouprole=0,ihelmres=18,iinside=25,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=7,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=242,imaxlife=128,imaxstamina=128,imoney=10421,iouter=25,ipower=60,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=16 where cUserCode='=西山居=ROO' 
+delete from FightSkill where iid=12273 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('=西山居=ROO',53,1)
+delete from Task_List where iid=2587 
+insert into Task_List(cusercode,idegree,itaskcode) values('=西山居=ROO',8,210)
+delete from EquipBaseInfo where iid=43006 
+delete from EquipBaseInfo where iid=43007 
+delete from EquipRequireInfo where iid=31656 
+delete from EquipRequireInfo where iid=31657 
+delete from EquipRequireInfo where iid=31658 
+delete from Equipments where iid=18926 
+delete from EquipBaseInfo where iid=43008 
+delete from Equipments where iid=18927 
+delete from EquipBaseInfo where iid=43009 
+delete from EquipBaseInfo where iid=43010 
+delete from EquipBaseInfo where iid=43011 
+delete from EquipBaseInfo where iid=43012 
+delete from EquipRequireInfo where iid=31659 
+delete from EquipRequireInfo where iid=31660 
+delete from EquipRequireInfo where iid=31661 
+delete from Equipments where iid=18928 
+delete from EquipBaseInfo where iid=43013 
+delete from EquipBaseInfo where iid=43014 
+delete from Equipments where iid=18929 
+delete from EquipBaseInfo where iid=43015 
+delete from EquipBaseInfo where iid=43016 
+delete from EquipBaseInfo where iid=43017 
+delete from EquipBaseInfo where iid=43018 
+delete from EquipRequireInfo where iid=31662 
+delete from EquipRequireInfo where iid=31663 
+delete from EquipRequireInfo where iid=31664 
+delete from Equipments where iid=18930 
+delete from EquipBaseInfo where iid=43019 
+delete from EquipBaseInfo where iid=43020 
+delete from EquipBaseInfo where iid=43021 
+delete from EquipBaseInfo where iid=43022 
+delete from EquipBaseInfo where iid=43023 
+delete from Equipments where iid=18931 
+delete from EquipBaseInfo where iid=43024 
+delete from EquipBaseInfo where iid=43025 
+delete from EquipBaseInfo where iid=43026 
+delete from EquipBaseInfo where iid=43027 
+delete from EquipRequireInfo where iid=31665 
+delete from EquipRequireInfo where iid=31666 
+delete from EquipRequireInfo where iid=31667 
+delete from Equipments where iid=18932 
+delete from EquipBaseInfo where iid=43028 
+delete from EquipBaseInfo where iid=43029 
+delete from EquipRequireInfo where iid=31668 
+delete from EquipRequireInfo where iid=31669 
+delete from EquipRequireInfo where iid=31670 
+delete from EquipRequireInfo where iid=31671 
+delete from Equipments where iid=18933 
+delete from EquipBaseInfo where iid=43030 
+delete from Equipments where iid=18934 
+delete from EquipBaseInfo where iid=43031 
+delete from Equipments where iid=18935 
+delete from EquipBaseInfo where iid=43032 
+delete from Equipments where iid=18936 
+delete from EquipBaseInfo where iid=43033 
+delete from EquipBaseInfo where iid=43034 
+delete from EquipRequireInfo where iid=31672 
+delete from EquipRequireInfo where iid=31673 
+delete from EquipRequireInfo where iid=31674 
+delete from EquipRequireInfo where iid=31675 
+delete from Equipments where iid=18937 
+delete from EquipBaseInfo where iid=43035 
+delete from Equipments where iid=18938 
+delete from EquipBaseInfo where iid=43036 
+delete from Equipments where iid=18939 
+delete from EquipBaseInfo where iid=43037 
+delete from Equipments where iid=18940 
+delete from EquipBaseInfo where iid=43038 
+delete from EquipBaseInfo where iid=43039 
+delete from Equipments where iid=18941 
+delete from EquipBaseInfo where iid=43040 
+delete from EquipBaseInfo where iid=43041 
+delete from Equipments where iid=18942 
+delete from EquipBaseInfo where iid=43042 
+delete from EquipBaseInfo where iid=43043 
+delete from EquipRequireInfo where iid=31676 
+delete from EquipRequireInfo where iid=31677 
+delete from EquipRequireInfo where iid=31678 
+delete from EquipRequireInfo where iid=31679 
+delete from Equipments where iid=18943 
+delete from EquipBaseInfo where iid=43044 
+delete from Equipments where iid=18944 
+delete from EquipBaseInfo where iid=43045 
+delete from Equipments where iid=18945 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',3,1,163,0,1,3,0,0,0,0,0,0,0,0,32755,0,2,4)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(95,19065,50,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',1,1,162,0,1,3,0,0,0,0,0,0,0,0,32755,0,1,9)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19066,4,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',8,0,161,0,1,3,0,0,0,0,0,0,0,0,125307,0,2,2)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19067,8,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19067,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19067,1,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19067,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19067,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(38,19067,1,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',2,1,160,0,1,3,0,0,0,0,0,0,0,0,20274,0,1,8)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(153,19068,10,100,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19068,6,100,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',2,1,159,0,1,3,0,0,0,0,0,0,0,0,20274,0,1,7)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(153,19069,10,100,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19069,6,100,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',1,1,158,0,1,3,0,0,0,0,0,0,0,0,20274,0,0,9)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19070,4,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',1,1,157,0,1,3,0,0,0,0,0,0,0,0,20274,0,0,8)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19071,4,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',1,1,156,0,1,3,0,0,0,0,0,0,0,0,20274,0,0,7)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19072,4,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',5,0,155,0,1,2,0,0,0,0,0,0,0,1,132890,0,4,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19073,12,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19073,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19073,3,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19073,25,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19073,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(38,19073,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',4,1,154,0,1,3,0,0,0,0,0,0,0,0,94357,0,0,1)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(109,19074,2,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',3,1,153,0,1,3,0,0,0,0,0,0,0,0,60560,0,3,7)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(95,19075,50,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',3,1,152,0,1,3,0,0,0,0,0,0,0,0,60560,0,3,6)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(95,19076,50,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',5,0,151,0,1,3,0,0,0,0,0,0,0,0,33400,0,1,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19077,8,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19077,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19077,1,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19077,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19077,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(38,19077,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',0,0,150,0,1,3,0,0,0,0,0,0,0,4,97325,0,3,8)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19078,5,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19078,11,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19078,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19078,42,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19078,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19078,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19078,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',10,0,149,2,1,3,0,0,0,0,0,0,0,0,4,0,0,4)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19079,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19079,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19079,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19079,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19079,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',0,0,148,0,1,2,0,0,0,0,0,0,0,4,26577,0,3,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19080,5,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19080,11,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19080,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19080,42,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19080,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19080,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19080,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',2,1,147,0,1,3,0,0,0,0,0,0,0,0,66166,0,2,8)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(153,19081,10,100,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19081,6,100,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',0,0,146,0,1,3,0,0,0,0,0,0,0,4,38046,0,3,1)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19082,5,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19082,11,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19082,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19082,42,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19082,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19082,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19082,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',0,1,145,0,1,3,0,0,0,0,0,0,0,0,114059,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(153,19083,10,100,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('=西山居=ROO',7,0,144,0,1,3,0,0,0,0,0,0,0,2,75091,0,0,2)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19084,39,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19084,10,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19084,1,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19084,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19084,0,0,0)
+update Role_Info set bsex='女',caccname='JX',calias='',cpartnercode='',cusercode='泡泡龙',iagility=25,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=2,igroupcode=0,igrouprole=0,ihelmres=18,iinside=25,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=200,imaxlife=100,imaxstamina=100,imoney=10000,iouter=25,ipower=25,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='泡泡龙' 
+delete from FightSkill where iid=12332 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('泡泡龙',53,1)
+delete from EquipBaseInfo where iid=43180 
+delete from EquipBaseInfo where iid=43181 
+delete from EquipBaseInfo where iid=43182 
+delete from EquipBaseInfo where iid=43183 
+delete from EquipRequireInfo where iid=31780 
+delete from EquipRequireInfo where iid=31781 
+delete from EquipRequireInfo where iid=31782 
+delete from Equipments where iid=18987 
+delete from EquipBaseInfo where iid=43184 
+delete from EquipBaseInfo where iid=43185 
+delete from EquipBaseInfo where iid=43186 
+delete from EquipBaseInfo where iid=43187 
+delete from EquipBaseInfo where iid=43188 
+delete from Equipments where iid=18988 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('泡泡龙',10,0,142,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19085,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19085,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19085,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19085,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19085,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('泡泡龙',0,0,141,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19086,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19086,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19086,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19086,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19086,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19086,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19086,0,0,0)
+insert into Role_Info(bsex,caccname,calias,cpartnercode,cusercode,iagility,iarmorres,ifightexp,ifightlevel,ifinishgame,ifirstsect,ifiveprop,igroupcode,igrouprole,ihelmres,iinside,ijoincount,ileadexp,ileadlevel,ileftfight,ileftlife,ileftprop,iliveexp,iluck,imaxinner,imaxlife,imaxstamina,imoney,iouter,ipower,irevivalid,irevivalx,irevivaly,isavemoney,isect,isectrole,iteam,iweaponres) values('男','qbj','','','wxbao',25,18,0,1,0,255,3,0,0,18,25,0,0,1,0,0,0,0,0,200,100,100,10000,25,25,20,10,0,0,255,0,0,0)
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('wxbao',53,1)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('wxbao',10,0,165,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19087,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19087,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19087,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19087,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19087,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('wxbao',0,0,164,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19088,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19088,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19088,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19088,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19088,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19088,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19088,0,0,0)
+update Role_Info set bsex='男',caccname='qbj',calias='',cpartnercode='',cusercode='wxbao',iagility=25,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=3,igroupcode=0,igrouprole=0,ihelmres=18,iinside=25,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=200,imaxlife=100,imaxstamina=100,imoney=10000,iouter=25,ipower=25,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='wxbao' 
+delete from FightSkill where iid=12360 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('wxbao',53,1)
+delete from EquipBaseInfo where iid=43427 
+delete from EquipBaseInfo where iid=43428 
+delete from EquipBaseInfo where iid=43429 
+delete from EquipBaseInfo where iid=43430 
+delete from EquipBaseInfo where iid=43431 
+delete from Equipments where iid=19087 
+delete from EquipBaseInfo where iid=43432 
+delete from EquipBaseInfo where iid=43433 
+delete from EquipBaseInfo where iid=43434 
+delete from EquipBaseInfo where iid=43435 
+delete from EquipRequireInfo where iid=31909 
+delete from EquipRequireInfo where iid=31910 
+delete from EquipRequireInfo where iid=31911 
+delete from Equipments where iid=19088 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('wxbao',10,0,165,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19089,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19089,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19089,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19089,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19089,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('wxbao',0,0,164,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19090,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19090,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19090,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19090,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19090,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19090,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19090,0,0,0)
+insert into Role_Info(bsex,caccname,calias,cpartnercode,cusercode,iagility,iarmorres,ifightexp,ifightlevel,ifinishgame,ifirstsect,ifiveprop,igroupcode,igrouprole,ihelmres,iinside,ijoincount,ileadexp,ileadlevel,ileftfight,ileftlife,ileftprop,iliveexp,iluck,imaxinner,imaxlife,imaxstamina,imoney,iouter,ipower,irevivalid,irevivalx,irevivaly,isavemoney,isect,isectrole,iteam,iweaponres) values('女','qbj','','','shuanger',25,18,0,1,0,255,2,0,0,18,25,0,0,1,0,0,0,0,0,200,100,100,10000,25,25,20,10,0,0,255,0,0,0)
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('shuanger',53,1)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('shuanger',10,0,167,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19091,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19091,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19091,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19091,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19091,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('shuanger',0,0,166,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19092,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19092,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19092,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19092,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19092,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19092,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19092,0,0,0)
+update Role_Info set bsex='女',caccname='qbj',calias='',cpartnercode='',cusercode='shuanger',iagility=25,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=2,igroupcode=0,igrouprole=0,ihelmres=18,iinside=25,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=200,imaxlife=100,imaxstamina=100,imoney=10000,iouter=25,ipower=25,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='shuanger' 
+delete from FightSkill where iid=12362 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('shuanger',53,1)
+delete from EquipBaseInfo where iid=43445 
+delete from EquipBaseInfo where iid=43446 
+delete from EquipBaseInfo where iid=43447 
+delete from EquipBaseInfo where iid=43448 
+delete from EquipBaseInfo where iid=43449 
+delete from Equipments where iid=19091 
+delete from EquipBaseInfo where iid=43450 
+delete from EquipBaseInfo where iid=43451 
+delete from EquipBaseInfo where iid=43452 
+delete from EquipBaseInfo where iid=43453 
+delete from EquipRequireInfo where iid=31915 
+delete from EquipRequireInfo where iid=31916 
+delete from EquipRequireInfo where iid=31917 
+delete from Equipments where iid=19092 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('shuanger',10,0,167,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19093,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19093,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19093,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19093,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19093,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('shuanger',0,0,166,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19094,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19094,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19094,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19094,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19094,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19094,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19094,0,0,0)
+insert into Role_Info(bsex,caccname,calias,cpartnercode,cusercode,iagility,iarmorres,ifightexp,ifightlevel,ifinishgame,ifirstsect,ifiveprop,igroupcode,igrouprole,ihelmres,iinside,ijoincount,ileadexp,ileadlevel,ileftfight,ileftlife,ileftprop,iliveexp,iluck,imaxinner,imaxlife,imaxstamina,imoney,iouter,ipower,irevivalid,irevivalx,irevivaly,isavemoney,isect,isectrole,iteam,iweaponres) values('男','qbj','','','yangguo',20,18,0,1,0,255,0,0,0,18,10,0,0,1,0,0,0,0,0,40,100,100,0,25,30,20,10,0,10000,255,0,0,0)
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('yangguo',53,1)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('yangguo',10,0,170,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19095,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19095,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19095,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19095,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19095,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('yangguo',0,0,169,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19096,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19096,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19096,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19096,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19096,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19096,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19096,0,0,0)
+update Role_Info set bsex='男',caccname='qbj',calias='',cpartnercode='',cusercode='yangguo',iagility=20,iarmorres=18,ifightexp=0,ifightlevel=1,ifinishgame=0,ifirstsect=255,ifiveprop=0,igroupcode=0,igrouprole=0,ihelmres=18,iinside=10,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=40,imaxlife=100,imaxstamina=100,imoney=0,iouter=25,ipower=30,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=10000,isect=255,isectrole=0,iteam=0,iweaponres=0 where cUserCode='yangguo' 
+delete from FightSkill where iid=12364 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('yangguo',53,1)
+delete from EquipBaseInfo where iid=43463 
+delete from EquipBaseInfo where iid=43464 
+delete from EquipBaseInfo where iid=43465 
+delete from EquipBaseInfo where iid=43466 
+delete from EquipBaseInfo where iid=43467 
+delete from Equipments where iid=19095 
+delete from EquipBaseInfo where iid=43468 
+delete from EquipBaseInfo where iid=43469 
+delete from EquipBaseInfo where iid=43470 
+delete from EquipBaseInfo where iid=43471 
+delete from EquipRequireInfo where iid=31921 
+delete from EquipRequireInfo where iid=31922 
+delete from EquipRequireInfo where iid=31923 
+delete from Equipments where iid=19096 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('yangguo',10,0,170,2,1,3,0,0,0,0,0,0,0,0,4,0,3,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19097,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19097,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19097,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19097,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19097,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('yangguo',0,0,169,2,1,3,0,0,0,0,0,0,0,0,4,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19098,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19098,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19098,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19098,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19098,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19098,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19098,0,0,0)
+update Role_Info set bsex='男',caccname='111111111',calias='',cpartnercode='',cusercode='屠夫',iagility=25,iarmorres=18,ifightexp=50,ifightlevel=2,ifinishgame=0,ifirstsect=255,ifiveprop=3,igroupcode=0,igrouprole=0,ihelmres=18,iinside=28,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=224,imaxlife=116,imaxstamina=112,imoney=200,iouter=27,ipower=25,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=4 where cUserCode='屠夫' 
+delete from FightSkill where iid=5414 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('屠夫',53,2)
+delete from Task_List where iid=609 
+insert into Task_List(cusercode,idegree,itaskcode) values('屠夫',8,210)
+delete from EquipBaseInfo where iid=1632 
+delete from EquipBaseInfo where iid=1633 
+delete from EquipBaseInfo where iid=1634 
+delete from EquipBaseInfo where iid=1635 
+delete from EquipRequireInfo where iid=1275 
+delete from EquipRequireInfo where iid=1276 
+delete from EquipRequireInfo where iid=1277 
+delete from Equipments where iid=697 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('屠夫',2,1,168,0,1,3,0,0,0,0,0,0,0,0,131441,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(153,19099,10,100,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19099,6,100,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('屠夫',0,0,143,0,1,2,0,0,0,0,0,0,0,1,12932,0,3,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19100,3,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19100,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19100,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19100,22,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19100,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19100,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19100,0,0,0)
+update Role_Info set bsex='女',caccname='kaiwei',calias='',cpartnercode='',cusercode='小薇',iagility=30,iarmorres=18,ifightexp=381,ifightlevel=4,ifinishgame=0,ifirstsect=255,ifiveprop=2,igroupcode=0,igrouprole=0,ihelmres=18,iinside=25,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=3,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=224,imaxlife=109,imaxstamina=112,imoney=100,iouter=25,ipower=35,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=13 where cUserCode='小薇' 
+delete from FightSkill where iid=12335 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('小薇',53,1)
+delete from Task_List where iid=2604 
+insert into Task_List(cusercode,idegree,itaskcode) values('小薇',8,210)
+delete from EquipBaseInfo where iid=43264 
+delete from Equipments where iid=19037 
+delete from EquipBaseInfo where iid=43265 
+delete from EquipBaseInfo where iid=43266 
+delete from EquipBaseInfo where iid=43267 
+delete from EquipBaseInfo where iid=43268 
+delete from EquipRequireInfo where iid=31840 
+delete from EquipRequireInfo where iid=31841 
+delete from EquipRequireInfo where iid=31842 
+delete from Equipments where iid=19038 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('小薇',3,1,247,0,1,3,0,0,0,0,0,0,0,0,96360,0,0,5)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(95,19101,50,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('小薇',1,1,242,0,1,3,0,0,0,0,0,0,0,0,48490,0,0,4)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19102,4,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('小薇',1,1,239,0,1,3,0,0,0,0,0,0,0,0,30753,0,0,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19103,4,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('小薇',6,0,105,0,1,2,0,0,0,0,0,0,0,0,30585,0,2,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19104,5,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19104,15,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19104,1,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19104,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19104,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('小薇',0,0,117,0,1,3,0,0,0,0,0,0,0,3,59025,0,5,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19105,4,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19105,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19105,40,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19105,18,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19105,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19105,10,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19105,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('小薇',7,0,110,0,1,3,0,0,0,0,0,0,0,3,105419,0,1,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19106,25,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19106,8,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19106,1,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19106,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('小薇',0,0,118,0,1,3,0,0,0,0,0,0,0,2,94613,0,3,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19107,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19107,8,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19107,-20,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19107,28,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19107,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19107,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19107,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('小薇',1,1,140,0,1,3,0,0,0,0,0,0,0,0,19352,0,0,2)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19108,4,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('小薇',2,1,121,0,1,3,0,0,0,0,0,0,0,0,70144,0,0,1)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(153,19109,10,100,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19109,6,100,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('小薇',0,0,101,0,1,2,0,0,0,0,0,0,0,5,187,0,3,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19110,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19110,7,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19110,20,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19110,15,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19110,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19110,7,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19110,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('小薇',0,1,100,0,1,3,0,0,0,0,0,0,0,0,95052,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(153,19111,10,100,0)
+update Role_Info set bsex='男',caccname='金光辉',calias='',cpartnercode='',cusercode='金光辉',iagility=25,iarmorres=6,ifightexp=3190,ifightlevel=8,ifinishgame=0,ifirstsect=255,ifiveprop=4,igroupcode=0,igrouprole=0,ihelmres=12,iinside=25,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=242,imaxlife=114,imaxstamina=128,imoney=701,iouter=25,ipower=60,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=7 where cUserCode='金光辉' 
+delete from FightSkill where iid=12331 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('金光辉',53,8)
+delete from Task_List where iid=2601 
+insert into Task_List(cusercode,idegree,itaskcode) values('金光辉',8,210)
+delete from EquipBaseInfo where iid=43143 
+delete from Equipments where iid=18970 
+delete from EquipBaseInfo where iid=43144 
+delete from EquipBaseInfo where iid=43145 
+delete from EquipRequireInfo where iid=31749 
+delete from EquipRequireInfo where iid=31750 
+delete from EquipRequireInfo where iid=31751 
+delete from Equipments where iid=18971 
+delete from EquipBaseInfo where iid=43146 
+delete from Equipments where iid=18972 
+delete from EquipBaseInfo where iid=43147 
+delete from Equipments where iid=18973 
+delete from EquipBaseInfo where iid=43148 
+delete from Equipments where iid=18974 
+delete from EquipBaseInfo where iid=43149 
+delete from EquipBaseInfo where iid=43150 
+delete from EquipBaseInfo where iid=43151 
+delete from EquipBaseInfo where iid=43152 
+delete from EquipRequireInfo where iid=31752 
+delete from EquipRequireInfo where iid=31753 
+delete from EquipRequireInfo where iid=31754 
+delete from Equipments where iid=18975 
+delete from EquipBaseInfo where iid=43153 
+delete from EquipBaseInfo where iid=43154 
+delete from EquipRequireInfo where iid=31755 
+delete from EquipRequireInfo where iid=31756 
+delete from Equipments where iid=18976 
+delete from EquipBaseInfo where iid=43155 
+delete from EquipBaseInfo where iid=43156 
+delete from EquipRequireInfo where iid=31757 
+delete from EquipRequireInfo where iid=31758 
+delete from EquipRequireInfo where iid=31759 
+delete from Equipments where iid=18977 
+delete from EquipBaseInfo where iid=43157 
+delete from EquipBaseInfo where iid=43158 
+delete from EquipRequireInfo where iid=31760 
+delete from EquipRequireInfo where iid=31761 
+delete from EquipRequireInfo where iid=31762 
+delete from EquipRequireInfo where iid=31763 
+delete from Equipments where iid=18978 
+delete from EquipBaseInfo where iid=43159 
+delete from EquipBaseInfo where iid=43160 
+delete from EquipRequireInfo where iid=31764 
+delete from EquipRequireInfo where iid=31765 
+delete from EquipRequireInfo where iid=31766 
+delete from Equipments where iid=18979 
+delete from EquipBaseInfo where iid=43161 
+delete from EquipBaseInfo where iid=43162 
+delete from EquipRequireInfo where iid=31767 
+delete from EquipRequireInfo where iid=31768 
+delete from EquipRequireInfo where iid=31769 
+delete from EquipRequireInfo where iid=31770 
+delete from Equipments where iid=18980 
+delete from EquipBaseInfo where iid=43163 
+delete from Equipments where iid=18981 
+delete from EquipBaseInfo where iid=43164 
+delete from EquipBaseInfo where iid=43165 
+delete from EquipBaseInfo where iid=43166 
+delete from EquipBaseInfo where iid=43167 
+delete from EquipBaseInfo where iid=43168 
+delete from Equipments where iid=18982 
+delete from EquipBaseInfo where iid=43169 
+delete from EquipBaseInfo where iid=43170 
+delete from EquipBaseInfo where iid=43171 
+delete from EquipBaseInfo where iid=43172 
+delete from EquipRequireInfo where iid=31771 
+delete from EquipRequireInfo where iid=31772 
+delete from EquipRequireInfo where iid=31773 
+delete from Equipments where iid=18983 
+delete from EquipBaseInfo where iid=43173 
+delete from EquipBaseInfo where iid=43174 
+delete from EquipBaseInfo where iid=43175 
+delete from EquipBaseInfo where iid=43176 
+delete from EquipRequireInfo where iid=31774 
+delete from EquipRequireInfo where iid=31775 
+delete from EquipRequireInfo where iid=31776 
+delete from Equipments where iid=18984 
+delete from EquipBaseInfo where iid=43177 
+delete from Equipments where iid=18985 
+delete from EquipBaseInfo where iid=43178 
+delete from EquipBaseInfo where iid=43179 
+delete from EquipRequireInfo where iid=31777 
+delete from EquipRequireInfo where iid=31778 
+delete from EquipRequireInfo where iid=31779 
+delete from Equipments where iid=18986 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',2,0,248,0,1,3,0,0,0,0,0,0,0,3,119227,0,0,3)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19112,66,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19112,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19112,1,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19112,30,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19112,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',0,1,245,0,1,3,0,0,0,0,0,0,0,0,101296,0,0,1)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(153,19113,10,100,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',4,1,244,0,1,3,0,0,0,0,0,0,0,0,89540,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(109,19114,2,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',7,0,120,0,1,2,0,0,0,0,0,0,0,2,31901,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19115,39,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19115,10,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19115,1,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19115,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19115,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',3,1,119,0,1,3,0,0,0,0,0,0,0,0,131469,0,0,7)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(95,19116,50,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',0,1,115,0,1,3,0,0,0,0,0,0,0,0,25516,0,0,6)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(153,19117,10,100,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',5,0,114,0,1,2,0,0,0,0,0,0,0,1,45204,0,4,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19118,12,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19118,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19118,3,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19118,25,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19118,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(38,19118,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',2,0,113,0,1,2,0,0,0,0,0,0,0,3,101803,0,1,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19119,66,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19119,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19119,1,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19119,30,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19119,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',8,0,112,0,1,2,0,0,0,0,0,0,0,1,71227,0,5,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19120,8,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19120,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19120,1,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19120,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19120,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(38,19120,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',6,0,111,0,1,2,0,0,0,0,0,0,0,1,31653,0,2,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(30,19121,15,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19121,15,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19121,1,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19121,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19121,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',0,0,109,0,1,2,0,0,0,0,0,0,0,3,129667,0,3,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19122,4,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19122,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19122,40,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19122,18,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19122,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19122,10,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19122,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',3,1,108,0,1,3,0,0,0,0,0,0,0,0,69937,0,0,8)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(95,19123,50,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',1,1,107,0,1,3,0,0,0,0,0,0,0,0,69937,0,0,9)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19124,4,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',1,1,106,0,1,3,0,0,0,0,0,0,0,0,69937,0,1,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19125,4,200,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('金光辉',0,1,104,0,1,3,0,0,0,0,0,0,0,0,131820,0,1,2)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(153,19126,10,100,0)
+update Role_Info set bsex='男',caccname='111111111',calias='',cpartnercode='',cusercode='屠夫',iagility=25,iarmorres=18,ifightexp=54,ifightlevel=2,ifinishgame=0,ifirstsect=255,ifiveprop=3,igroupcode=0,igrouprole=0,ihelmres=18,iinside=28,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=0,ileftlife=0,ileftprop=0,iliveexp=0,iluck=0,imaxinner=224,imaxlife=116,imaxstamina=112,imoney=200,iouter=27,ipower=25,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=0,isect=255,isectrole=0,iteam=0,iweaponres=4 where cUserCode='屠夫' 
+delete from FightSkill where iid=12366 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('屠夫',53,2)
+delete from Task_List where iid=2608 
+insert into Task_List(cusercode,idegree,itaskcode) values('屠夫',8,210)
+delete from EquipBaseInfo where iid=43481 
+delete from EquipBaseInfo where iid=43482 
+delete from Equipments where iid=19099 
+delete from EquipBaseInfo where iid=43483 
+delete from EquipBaseInfo where iid=43484 
+delete from EquipBaseInfo where iid=43485 
+delete from EquipBaseInfo where iid=43486 
+delete from EquipRequireInfo where iid=31927 
+delete from EquipRequireInfo where iid=31928 
+delete from EquipRequireInfo where iid=31929 
+delete from Equipments where iid=19100 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('屠夫',0,0,241,0,1,2,0,0,0,0,0,0,0,1,12932,0,3,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19127,3,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19127,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19127,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19127,22,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19127,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19127,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19127,0,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('屠夫',2,1,240,0,1,3,0,0,0,0,0,0,0,0,65564,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(153,19128,10,100,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(154,19128,6,100,0)
+update Role_Info set bsex='男',caccname='555',calias='',cpartnercode='',cusercode='zhongfang',iagility=20,iarmorres=18,ifightexp=79,ifightlevel=2,ifinishgame=0,ifirstsect=255,ifiveprop=0,igroupcode=0,igrouprole=0,ihelmres=18,iinside=10,ijoincount=0,ileadexp=0,ileadlevel=1,ileftfight=1,ileftlife=0,ileftprop=5,iliveexp=0,iluck=0,imaxinner=44,imaxlife=104,imaxstamina=104,imoney=0,iouter=25,ipower=30,irevivalid=20,irevivalx=10,irevivaly=0,isavemoney=10000,isect=255,isectrole=0,iteam=0,iweaponres=1 where cUserCode='zhongfang' 
+delete from FightSkill where iid=12357 
+insert into FightSkill(cusercode,ifightskill,ifightskilllevel) values('zhongfang',53,1)
+insert into Task_List(cusercode,idegree,itaskcode) values('zhongfang',8,210)
+delete from EquipBaseInfo where iid=43369 
+delete from EquipBaseInfo where iid=43370 
+delete from EquipBaseInfo where iid=43371 
+delete from EquipBaseInfo where iid=43372 
+delete from EquipBaseInfo where iid=43373 
+delete from Equipments where iid=19063 
+delete from EquipBaseInfo where iid=43374 
+delete from EquipBaseInfo where iid=43375 
+delete from EquipBaseInfo where iid=43376 
+delete from EquipBaseInfo where iid=43377 
+delete from EquipRequireInfo where iid=31879 
+delete from EquipRequireInfo where iid=31880 
+delete from EquipRequireInfo where iid=31881 
+delete from Equipments where iid=19064 
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('zhongfang',10,0,139,2,1,2,0,0,0,0,0,0,0,0,4,0,10,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(111,19129,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(93,19129,50,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(85,19129,10,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(96,19129,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(150,19129,10,0,0)
+insert into Equipments(cusercode,idetailtype,iequipclasscode,iequipcode,iequipversion,ilevel,ilocal,ilucky,iparam1,iparam2,iparam3,iparam4,iparam5,iparam6,iparticulartype,irandseed,iseries,ix,iy) values('zhongfang',0,0,138,2,1,2,0,0,0,0,0,0,0,0,4,0,3,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(28,19130,2,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(29,19130,6,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(167,19130,0,0,0)
+insert into EquipBaseInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(31,19130,20,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(36,19130,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(32,19130,0,0,0)
+insert into EquipRequireInfo(iclass,imainid,ivalue1,ivalue2,ivalue3) values(33,19130,0,0,0)
