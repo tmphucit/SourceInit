@@ -16,12 +16,12 @@ tạo branch mới
 đẩy code lên git
  - git push origin ten-branch
 
-git remote add origin git@github.com:tmphucit/SourceCTC.git
+git remote add origin git@github.com:tmphucit/SourceInit.git
 
 ### Clone ve máy
 
 ```
-git clone https://github.com/tmphucit/SourceCTC.git
+git clone https://github.com/tmphucit/SourceInit.git
 or
-git clone git@github.com:tmphucit/SourceCTC.git
+git clone git@github.com:tmphucit/SourceInit.git
 ```
