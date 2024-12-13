@@ -1,5 +1,3 @@
-![init](https://github.com/user-attachments/assets/d8adcdf6-42f9-4272-99f8-e95fc419792d)
-
 ### Todo
 
 - Chuột phải mặc đồ
