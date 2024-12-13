@@ -1,0 +1,2 @@
+MISSION	SCRIPT
+1	\script\missions\宋金战场pk战\宋金战场pk大战.lua
